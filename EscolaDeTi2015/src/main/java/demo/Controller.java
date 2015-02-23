@@ -12,4 +12,10 @@ public class Controller {
 	{
 		return "TESTE DE METODO GET";
 	}
+	
+	@RequestMapping(value="/mensagem2",method=RequestMethod.GET)
+	public String criarMensagem2()
+	{
+		return "teste de metodoto get 2";
+	}
 }
